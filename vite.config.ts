@@ -24,7 +24,7 @@ export default defineConfig({
         },
     },
     build: {
-        outDir: 'docs' // 打包文件的输出目录
+        outDir: 'stable-ui' // 打包文件的输出目录
     },
     base: '/stable-ui/'
 });
