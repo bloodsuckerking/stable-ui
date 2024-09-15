@@ -22,9 +22,6 @@ export default defineConfig({
         alias: {
             "@": fileURLToPath(new URL("./src", import.meta.url)),
         },
-    },
-    build: {
-        outDir: 'stable-ui' // 打包文件的输出目录
-    },
-    base: '/stable-ui/'
+    }
+    // base: '/stable-ui/'
 });
